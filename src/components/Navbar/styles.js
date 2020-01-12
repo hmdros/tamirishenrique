@@ -6,8 +6,16 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   margin: 50px 0;
+  background: ${props => (props.transparent ? 'transparent' : '#E8F2F8')};
 
   a {
     text-decoration: none;
   }
+
+  @media only screen and (max-width: 600px) {
+    /* TELA GRANDE */
+    display: none;
+  }
+
+
 `;

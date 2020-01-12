@@ -1,11 +1,12 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { Container } from './styles';
+import hero from '../../assets/images/th/BAR_9798.jpg';
 
 export default function Home() {
   return (
-    <>
-      <h1>Página Inicial</h1>
-    </>
+    <Container>
+      <h1>Tamiris & Henrique</h1>
+    </Container>
   );
 }

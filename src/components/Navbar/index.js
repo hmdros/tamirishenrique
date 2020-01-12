@@ -9,20 +9,20 @@ export default function Navbar() {
       <Link to="/">
         <h3>Início</h3>
       </Link>
-      <Link to="/gallery">
-        <h3>Galeria de Fotos</h3>
+      <Link to="/history">
+        <h3>Nossa Historia</h3>
       </Link>
       <Link to="/bestmans">
         <h3>Padrinhos e Madrinhas</h3>
       </Link>
-      <Link to="/giftlist">
-        <h3>Lista de Presentes</h3>
-      </Link>
       <Link to="/place">
         <h3>Local e Data</h3>
       </Link>
-      <Link to="/thanks">
-        <h3>Obrigado</h3>
+      <Link to="/giftlist">
+        <h3>Lista de Presentes</h3>
+      </Link>
+      <Link to="/gallery">
+        <h3>Galeria de Fotos</h3>
       </Link>
     </Container>
   );

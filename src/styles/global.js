@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Nunito&display=swap');
   * {
     margin: 0;
     padding: 0;

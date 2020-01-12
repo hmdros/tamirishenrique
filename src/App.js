@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes />
-      <Footer />
+      {/* <Footer /> */}
       <GlobalStyles />
     </BrowserRouter>
   );
