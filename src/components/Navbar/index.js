@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 export default function Navbar() {
   return (
     <>
-      <h1>Barra de Navegação</h1>
       <Link to="/" >
         <p>Início</p>
       </Link>
