@@ -16,7 +16,4 @@ export const Container = styled.div`
     font-weight: lighter;
   }
 
-  image {
-
-  }
 `;
