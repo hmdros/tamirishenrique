@@ -1,10 +1,19 @@
-import React from 'react';
+import React, {useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import { Container } from './styles';
+import { MdMenu } from 'react-icons/md';
+
+import { Container, MenuSmall } from './styles';
 
 export default function Navbar() {
+  const [showMenu, setShowMenu] = useState([]);
+
+  function handleClickMenu() {
+    console.log('aparece menu');
+  }
+
   return (
+    <>
     <Container>
       <Link to="/">
         <h3>Início</h3>
@@ -25,5 +34,9 @@ export default function Navbar() {
         <h3>Galeria de Fotos</h3>
       </Link>
     </Container>
+    <MenuSmall>
+      <MdMenu fontSize="45px" onClick={handleClickMenu}/>
+    </MenuSmall>
+    </>
   );
 }

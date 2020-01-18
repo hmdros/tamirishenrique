@@ -19,3 +19,10 @@ export const Container = styled.div`
 
 
 `;
+
+export const MenuSmall = styled.div`
+  @media only screen and (min-width: 600px) {
+    /* TELA PEQUENA */
+    display: none;
+  }
+`;
