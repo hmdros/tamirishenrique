@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import hero from '../../assets/images/th/BAR_9798.jpg';
+import hero from '../../assets/images/th/engage_jpa1.jpg';
 
 export const Container = styled.div`
   height: 100vh;
@@ -14,6 +14,7 @@ export const Container = styled.div`
     font-family: 'Indie Flower';
     font-size: 80px;
     font-weight: lighter;
+    color: #F1ECCE;
   }
 
 `;
