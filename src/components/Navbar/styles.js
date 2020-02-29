@@ -6,10 +6,13 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   margin: 50px 0;
-  background: ${props => (props.transparent ? 'transparent' : '#E8F2F8')};
+  background: 'transparent';
 
   a {
     text-decoration: none;
+    color: #CACAAA  ;
+    font-size: 22px;
+    padding: 10px;
   }
 
   @media only screen and (max-width: 600px) {

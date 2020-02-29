@@ -1,7 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Nunito&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Parisienne|Sacramento|Satisfy&display=swap');
+
   * {
     margin: 0;
     padding: 0;
@@ -10,7 +11,7 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #E8F2F8;
+    background: #9CB5DF;
     -webkit-font-smoothin: antialiased;
   }
 

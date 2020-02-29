@@ -3,7 +3,12 @@ import hero from '../../assets/images/th/engage_jpa1.jpg';
 
 export const Container = styled.div`
   height: 100vh;
+  width: 100%;
   display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -5;
   justify-content: center;
   align-items: center;
   background-image: url(${hero});
@@ -11,10 +16,9 @@ export const Container = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   h1 {
-    font-family: 'Indie Flower';
-    font-size: 80px;
-    font-weight: lighter;
-    color: #F1ECCE;
+    font-family: 'Sacramento';
+    font-size: 90px;
+    font-weight: normal;
+    color: #d4d6b9;
   }
-
 `;
