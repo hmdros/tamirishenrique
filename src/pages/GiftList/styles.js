@@ -1,17 +1,18 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  height: 100vh;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 `;
 
 export const Header = styled.div`
+  justify-content: center;
+  display: flex;
 `;
 
 export const Body = styled.div`
+  p {
+    color: yellow;
+  }
 `;
 
 export const GiftGrid = styled.ul`
