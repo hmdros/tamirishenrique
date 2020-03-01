@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/place"
+  to = "/place"
+  status = 301
+  force = true
+  conditions = {Language = ["pt-BR"], Country = ["BR"]}

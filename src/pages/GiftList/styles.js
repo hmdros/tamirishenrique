@@ -47,18 +47,24 @@ export const GiftGrid = styled.ul`
 
     button {
       background: #368881;
-      color: #fff;
       border: 0;
       border-radius: 4px;
       overflow: hidden;
       margin-top: auto;
-
+      padding: 8px;
+      justify-content: center;
       display: flex;
       align-items: center;
-      transition: background 0.3s;
 
       &:hover {
         background: #368881;
+      }
+
+      a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
       }
 
       div {

@@ -3,7 +3,9 @@ import { MdAddShoppingCart } from 'react-icons/md';
 
 import { Container, Header, Body, GiftGrid } from './styles';
 
-class GiftList extends Component {
+import Gifts from '../../gifts/gifts.json';
+
+export default class GiftList extends Component {
 
   state = {
     gifts: [],
@@ -12,8 +14,10 @@ class GiftList extends Component {
   async componentDidMount() {
     // const response = await api.get('tours');
     // this.setState({ tours: data });
-    // todo: get giftlist from a json setting >
-    // name, image, url, price
+
+    this.setState({
+      gifts: Gifts.gifts,
+    });
   }
 
   render() {
@@ -26,14 +30,14 @@ class GiftList extends Component {
         </Header>
         <Body>
           <GiftGrid>
-            Cota R$ 150
-            <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=238734949-49442b67-bbf2-4df0-845f-75dc23dc7194">Comprar</a>
             {gifts.map(gift => (
               <li key={gift.title}>
                 <img src={gift.image} alt={gift.title} height="220" />
                 <strong>{gift.title}</strong>
-                <p>{gift.location}</p>
-                <span>{gift.priceFormated}</span>
+                <span>{gift.price}</span>
+                <button type="button">
+                  <a href={gift.external_url}>Comprar</a>
+                </button>
               </li>
             ))}
           </GiftGrid>
@@ -42,5 +46,3 @@ class GiftList extends Component {
     );
   }
 }
-
-export default GiftList;

@@ -1,0 +1,25 @@
+{
+  "gifts": [
+    {
+      "title": "Cota de dólar",
+      "description": "Conta de presente",
+      "price": "R$ 150,00",
+      "image": "https://res.cloudinary.com/djz3dt7lc/image/upload/v1583003181/Site%20Casamento/places/cash.jpg",
+      "external_url": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=238734949-49442b67-bbf2-4df0-845f-75dc23dc7194"
+    },
+    {
+      "title": "Cota de dólar",
+      "description": "Conta de presente",
+      "price": "R$ 150,00",
+      "image": "https://res.cloudinary.com/djz3dt7lc/image/upload/v1583003181/Site%20Casamento/places/cash.jpg",
+      "external_url": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=238734949-49442b67-bbf2-4df0-845f-75dc23dc7194"
+    },
+    {
+      "title": "Cota de dólar",
+      "description": "Conta de presente",
+      "price": "R$ 150,00",
+      "image": "https://res.cloudinary.com/djz3dt7lc/image/upload/v1583003181/Site%20Casamento/places/cash.jpg",
+      "external_url": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=238734949-49442b67-bbf2-4df0-845f-75dc23dc7194"
+    }
+  ]
+}
