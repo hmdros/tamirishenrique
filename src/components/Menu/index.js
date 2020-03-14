@@ -1,5 +1,5 @@
 import React from 'react';
-import { bool } from 'prop-types';
+import { bool, func } from 'prop-types';
 import { Link } from 'react-router-dom';
 import { StyledMenu } from './styles';
 
@@ -30,6 +30,7 @@ const Menu = ({ open, setOpen }) => {
 
 Menu.propTypes = {
   open: bool.isRequired,
+  setOpen: func.isRequired,
 };
 
 export default Menu;
