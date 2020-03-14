@@ -1,35 +1,35 @@
 [[redirects]]
-from = "/historia.html"
+from = "/historia"
 to = "/history"
 status = 301
 force = false
 [[redirects]]
-from = "/presentes.html"
+from = "/presentes"
 to = "/giftlist"
 status = 301
 force = false
 [[redirects]]
-from = "/local.html"
+from = "/local"
 to = "/place"
 status = 301
 force = false
 [[redirects]]
-from = "/padrinhos.html"
+from = "/padrinhos"
 to = "/bestmans"
 status = 301
 force = false
 [[redirects]]
-from = "/presentes.html"
+from = "/presentes"
 to = "/giftlist"
 status = 301
 force = false
 [[redirects]]
-from = "/galeria.html"
+from = "/galeria"
 to = "/gallery"
 status = 301
 force = false
 [[redirects]]
-from = "/obrigado.html"
+from = "/obrigado"
 to = "/thanks"
 status = 301
 force = false
