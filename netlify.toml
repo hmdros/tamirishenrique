@@ -28,4 +28,8 @@ from = "/galeria.html"
 to = "/gallery"
 status = 301
 force = false
-x
+[[redirects]]
+from = "/obrigado.html"
+to = "/thanks"
+status = 301
+force = false
