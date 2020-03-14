@@ -7,22 +7,22 @@ const Menu = ({ open, setOpen }) => {
   return (
     <StyledMenu open={open}>
       <Link to="/" onClick={() => setOpen(!open)}>
-        <h3>Início</h3>
+        <h4>Início</h4>
       </Link>
       <Link to="/history" onClick={() => setOpen(!open)}>
-        <h3>História</h3>
+        <h4>História</h4>
       </Link>
       <Link to="/bestmans" onClick={() => setOpen(!open)}>
-        <h3>Padrinhos</h3>
+        <h4>Padrinhos</h4>
       </Link>
       <Link to="/place" onClick={() => setOpen(!open)}>
-        <h3>Local</h3>
+        <h4>Local</h4>
       </Link>
       <Link to="/giftlist" onClick={() => setOpen(!open)}>
-        <h3>Presentes</h3>
+        <h4>Presentes</h4>
       </Link>
       <Link to="/gallery" onClick={() => setOpen(!open)}>
-        <h3>Galeria</h3>
+        <h4>Galeria</h4>
       </Link>
     </StyledMenu>
   );
