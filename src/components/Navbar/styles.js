@@ -10,12 +10,12 @@ export const Container = styled.div`
 
   a {
     text-decoration: none;
-    color: #CACAAA  ;
+    color: #CACAAA;
     font-size: 22px;
     padding: 10px;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 576px) {
     /* TELA GRANDE */
     display: none;
   }
@@ -24,7 +24,7 @@ export const Container = styled.div`
 `;
 
 export const MenuSmall = styled.div`
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 576px) {
     /* TELA PEQUENA */
     display: none;
   }
