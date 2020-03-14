@@ -1,6 +1,31 @@
 [[redirects]]
-  from = "/place"
-  to = "/place"
-  status = 301
-  force = true
-  conditions = {Language = ["pt-BR"], Country = ["BR"]}
+from = "/historia.html"
+to = "/history"
+status = 301
+force = false
+[[redirects]]
+from = "/presentes.html"
+to = "/giftlist"
+status = 301
+force = false
+[[redirects]]
+from = "/local.html"
+to = "/place"
+status = 301
+force = false
+[[redirects]]
+from = "/padrinhos.html"
+to = "/bestmans"
+status = 301
+force = false
+[[redirects]]
+from = "/presentes.html"
+to = "/giftlist"
+status = 301
+force = false
+[[redirects]]
+from = "/galeria.html"
+to = "/gallery"
+status = 301
+force = false
+x
