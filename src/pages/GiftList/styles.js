@@ -11,7 +11,7 @@ export const Header = styled.div`
 
 export const Body = styled.div`
   p {
-    color: yellow;
+    color: red;
   }
 `;
 
@@ -20,6 +20,10 @@ export const GiftGrid = styled.ul`
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
   list-style: none;
+
+  @media (max-width: 567px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
   li {
     display: flex;
