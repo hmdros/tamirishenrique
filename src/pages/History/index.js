@@ -6,12 +6,15 @@ import {
   Namoro,
   Engage,
   Engaged,
+  Header,
 } from './styles';
 
 export default function History() {
   return (
     <Container>
-      <h1>Nossa História</h1>
+      <Header>
+        <h1>Nossa História</h1>
+      </Header>
       <TimeLine>
         <li>
           <FirstDate />

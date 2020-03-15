@@ -1,11 +1,13 @@
 import React from 'react';
 
-import { Container, BestmanList, BrideMade } from './styles';
+import { Container, BestmanList, BrideMade, Header } from './styles';
 
 export default function Bestmans() {
   return (
     <Container>
-      <h1>Padrinhos e Madrinhas</h1>
+      <Header>
+        <h1>Padrinhos e Madrinhas</h1>
+      </Header>
       <BestmanList>
         <h3>Padrinhos da Noiva</h3>
         <li>Lais e Gabriel</li>

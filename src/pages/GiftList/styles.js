@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  flex-direction: column;
+  height: 100vh;
 `;
 
 export const Header = styled.div`
-  justify-content: center;
-  display: flex;
+  margin-top: 100px;
+  margin-bottom: 30px;
 `;
 
 export const Body = styled.div`
@@ -17,7 +17,7 @@ export const Body = styled.div`
 
 export const GiftGrid = styled.ul`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
   list-style: none;
 
@@ -47,7 +47,7 @@ export const GiftGrid = styled.ul`
     }
 
     button {
-      background: #368881;
+      background: #9cb5df;
       border: 0;
       border-radius: 4px;
       overflow: hidden;
@@ -58,7 +58,7 @@ export const GiftGrid = styled.ul`
       align-items: center;
 
       &:hover {
-        background: #368881;
+        background: #9cb5df;
       }
 
       a{

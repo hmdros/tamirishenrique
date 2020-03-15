@@ -6,15 +6,14 @@ import engagedimage from '../../assets/images/th/engage_jpa3.jpg';
 
 export const Container = styled.div`
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  h1 {
-    margin-top: 10px;
   }
 `;
+
+export const Header = styled.div`
+  margin-top: 100px;
+  margin-bottom: 30px;
+`;
+
 export const TimeLine = styled.ul`
   li {
     display: flex;
@@ -26,8 +25,9 @@ export const TimeLine = styled.ul`
       width: 50%;
     }
 
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 576px) {
       width: 350px;
+      margin-top: auto;
     }
   }
 `;
@@ -35,9 +35,10 @@ export const TimeLine = styled.ul`
 export const FirstDate = styled.div`
   border-radius: 10px;
   box-shadow: 1px solid #ddd;
-  margin: 0 15px;
+  margin: 0 10px;
+  padding: 20px;
   background-image: url(${firstdateimage});
-  height: 120px;
+  height: 160px;
   width: 200px;
   background-position: center;
   background-size: cover;
@@ -47,9 +48,10 @@ export const FirstDate = styled.div`
 export const Namoro = styled.div`
   border-radius: 10px;
   box-shadow: 1px solid #ddd;
-  margin: 0 15px;
+  margin: 0 10px;
+  padding: 20px;
   background-image: url(${namoroimage});
-  height: 120px;
+  height: 160px;
   width: 200px;
   background-position: center;
   background-size: cover;
@@ -59,9 +61,10 @@ export const Namoro = styled.div`
 export const Engage = styled.div`
   border-radius: 10px;
   box-shadow: 1px solid #ddd;
-  margin: 0 15px;
+  margin: 0 10px;
+  padding: 20px;
   background-image: url(${engageimage});
-  height: 120px;
+  height: 160px;
   width: 200px;
   background-position: center;
   background-size: cover;
@@ -71,9 +74,10 @@ export const Engage = styled.div`
 export const Engaged = styled.div`
   border-radius: 10px;
   box-shadow: 1px solid #ddd;
-  margin: 0 15px;
+  margin: 0 10px;
+  padding: 20px;
   background-image: url(${engagedimage});
-  height: 120px;
+  height: 160px;
   width: 200px;
   background-position: center;
   background-size: cover;

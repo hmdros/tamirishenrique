@@ -1,11 +1,13 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { Container, Header } from './styles';
 
 export default function Thanks() {
   return (
-    <>
-      <h1>Obrigado pela visita</h1>
-    </>
+    <Container>
+      <Header>
+        <h1>Obrigado pela visita</h1>
+      </Header>
+    </Container>
   );
 }

@@ -1,11 +1,13 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { Container, Header } from './styles';
 
 export default function Gallery() {
   return (
-    <>
-      <h1>Galeria de fotos</h1>
-    </>
+    <Container>
+      <Header>
+        <h1>Galeria de fotos</h1>
+      </Header>
+    </Container>
   );
 }
