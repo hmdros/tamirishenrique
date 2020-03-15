@@ -1,7 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Parisienne|Sacramento|Satisfy&display=swap');
+
+  @import url("https://fonts.googleapis.com/css?family=Great+Vibes|Italianno|Parisienne|Pinyon+Script&display=swap");
 
   * {
     margin: 0;
@@ -11,7 +12,7 @@ export default createGlobalStyle`
   }
 
   body {
-    background: white;
+    background: #cacaaa;
     -webkit-font-smoothin: antialiased;
   }
 

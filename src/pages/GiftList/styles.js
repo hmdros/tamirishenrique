@@ -7,11 +7,17 @@ export const Container = styled.div`
 export const Header = styled.div`
   margin-top: 100px;
   margin-bottom: 30px;
+  font-family: 'Parisienne';
+  color: #004760;
+  font-size: 2rem;
+  text-align: center;
 `;
 
 export const Body = styled.div`
   p {
     color: red;
+    padding: 10px;
+    margin: 10px;
   }
 `;
 
@@ -26,15 +32,21 @@ export const GiftGrid = styled.ul`
   }
 
   li {
+    transition: 0.5s;
     display: flex;
     flex-direction: column;
-    background: #fff;
+    background: #eee;
     border-radius: 4px;
     padding: 20px;
 
     img {
       align-self: center;
       max-width: 250px;
+      border-radius: 4px;
+      border: 2px solid #666;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
     }
 
     > strong {
@@ -61,11 +73,28 @@ export const GiftGrid = styled.ul`
       display: flex;
       align-items: center;
 
-      &:hover {
-        background: #9cb5df;
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+      transform: scale(1);
+      animation: pulse 2s infinite;
+
+      @keyframes pulse {
+        0% {
+          transform: scale(0.95);
+          box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.4);
+        }
+
+        70% {
+          transform: scale(1);
+          box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+        }
+
+        100% {
+          transform: scale(0.95);
+          box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        }
       }
 
-      a{
+      a {
         color: #fff;
         text-decoration: none;
         font-size: 18px;

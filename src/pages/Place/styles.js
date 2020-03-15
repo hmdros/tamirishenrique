@@ -10,6 +10,10 @@ export const Container = styled.div`
 export const Header = styled.div`
   margin-top: 100px;
   margin-bottom: 30px;
+  font-family: 'Parisienne';
+  color: #004760;
+  font-size: 2rem;
+  text-align: center;
 `;
 
 export const Info = styled.div`

@@ -10,15 +10,22 @@ export const Container = styled.div`
   left: 0;
   z-index: -5;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   background-image: url(${hero});
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
   h1 {
-    font-family: 'Sacramento';
+    font-family: 'Parisienne';
     font-size: 90px;
-    font-weight: normal;
-    color: #d4d6b9;
+    font-weight: bold;
+    color: #004760;
+    margin-bottom: 20px;
+
+    @media (max-width: 576px) {
+      font-size: 68px;
+      text-align: center;
+    }
   }
 `;

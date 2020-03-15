@@ -6,8 +6,10 @@ export default function Gallery() {
   return (
     <Container>
       <Header>
-        <h1>Galeria de fotos</h1>
+        <h1>Galeria de Fotos</h1>
       </Header>
     </Container>
   );
 }
+
+// https://tympanus.net/Development/SmoothScrollingImageEffects/ - para galeria

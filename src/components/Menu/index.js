@@ -10,7 +10,7 @@ const Menu = ({ open, setOpen }) => {
         <h4>Início</h4>
       </Link>
       <Link to="/history" onClick={() => setOpen(!open)}>
-        <h4>História</h4>
+        <h4>O Casal</h4>
       </Link>
       <Link to="/bestmans" onClick={() => setOpen(!open)}>
         <h4>Padrinhos</h4>
@@ -22,7 +22,7 @@ const Menu = ({ open, setOpen }) => {
         <h4>Presentes</h4>
       </Link>
       <Link to="/gallery" onClick={() => setOpen(!open)}>
-        <h4>Galeria</h4>
+        <h4>Fotos</h4>
       </Link>
     </StyledMenu>
   );

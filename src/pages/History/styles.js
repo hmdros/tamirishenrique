@@ -12,6 +12,10 @@ export const Container = styled.div`
 export const Header = styled.div`
   margin-top: 100px;
   margin-bottom: 30px;
+  font-family: 'Parisienne';
+  color: #004760;
+  font-size: 2rem;
+  text-align: center;
 `;
 
 export const TimeLine = styled.ul`
@@ -25,6 +29,10 @@ export const TimeLine = styled.ul`
       width: 50%;
     }
 
+    h3 {
+      padding: 8px;
+    }
+
     @media only screen and (max-width: 576px) {
       width: 350px;
       margin-top: auto;
@@ -34,6 +42,7 @@ export const TimeLine = styled.ul`
 
 export const FirstDate = styled.div`
   border-radius: 10px;
+  border: 2px solid #eee;
   box-shadow: 1px solid #ddd;
   margin: 0 10px;
   padding: 20px;
@@ -47,6 +56,7 @@ export const FirstDate = styled.div`
 
 export const Namoro = styled.div`
   border-radius: 10px;
+  border: 2px solid #eee;
   box-shadow: 1px solid #ddd;
   margin: 0 10px;
   padding: 20px;
@@ -60,6 +70,7 @@ export const Namoro = styled.div`
 
 export const Engage = styled.div`
   border-radius: 10px;
+  border: 2px solid #eee;
   box-shadow: 1px solid #ddd;
   margin: 0 10px;
   padding: 20px;
@@ -73,6 +84,7 @@ export const Engage = styled.div`
 
 export const Engaged = styled.div`
   border-radius: 10px;
+  border: 2px solid #eee;
   box-shadow: 1px solid #ddd;
   margin: 0 10px;
   padding: 20px;

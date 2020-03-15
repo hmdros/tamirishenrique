@@ -6,7 +6,7 @@ export default function Thanks() {
   return (
     <Container>
       <Header>
-        <h1>Obrigado pela visita</h1>
+        <h1>Obrigado pela Visita!</h1>
       </Header>
     </Container>
   );

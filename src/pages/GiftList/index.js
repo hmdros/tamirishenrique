@@ -12,12 +12,13 @@ export default class GiftList extends Component {
   };
 
   async componentDidMount() {
-    // const response = await api.get('tours');
-    // this.setState({ tours: data });
-
     this.setState({
       gifts: Gifts.gifts,
     });
+  }
+
+  goToExternalUrl(external_url) {
+    window.location.href=`${external_url}`
   }
 
   render() {
@@ -33,10 +34,10 @@ export default class GiftList extends Component {
           <GiftGrid>
             {gifts.map(gift => (
               <li key={gift.title}>
-                <img src={gift.image} alt={gift.title} height="220" />
+                <img src={gift.image} alt={gift.title} height="220" onClick={() => {this.goToExternalUrl(gift.external_url)}} />
                 <strong>{gift.title}</strong>
                 <span>{gift.price}</span>
-                <button type="button">
+                <button type="button" onClick={() => {this.goToExternalUrl(gift.external_url)}}>
                   <a href={gift.external_url}>Comprar</a>
                 </button>
               </li>
