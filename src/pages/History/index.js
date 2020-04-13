@@ -20,7 +20,7 @@ export default function History() {
           <FirstDate />
           <div>
             <span>10 de setembro de 2015</span>
-            <h3>Primeiro Encontro</h3>
+            <h2>Primeiro Encontro</h2>
             <p>
               Nos conhecemos numa festa de formatura em 05 de setembro de 2015.
               Dias depois marcamos de nos encontrar numa adoração da igreja que
@@ -32,7 +32,7 @@ export default function History() {
         <li>
           <div>
             <span>19 de setembro de 2015</span>
-            <h3>Início de Namoro</h3>
+            <h2>Início de Namoro</h2>
             <p>
               Pouco depois do primeiro beijo o relacionamento se intensificou e
               nós percebemos que éramos um do outro. O pedido veio aconteceu na
@@ -46,7 +46,7 @@ export default function History() {
           <Engage />
           <div>
             <span>30 de março de 2019</span>
-            <h3>Noivado</h3>
+            <h2>Noivado</h2>
             <p>
               Noivamos em París, durante um almoço romantico à bordo de uma
               embarcação que passeava pelo Rio Sena mostrando os principais
@@ -57,7 +57,7 @@ export default function History() {
         <li>
           <div>
             <span>19 de setembro de 2020</span>
-            <h3>Casamento</h3>
+            <h2>Casamento</h2>
             <p>
               Escolhemos esta data pois iremos comemorar nosso 5º aniversário de
               namoro. Durante esse tempo vivemos muitas alegrias, provações,
