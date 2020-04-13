@@ -12,7 +12,7 @@ export default function Bestmans() {
         <h2>Padrinhos da Noiva</h2>
         <li>
           <div>
-            <img src="https://picsum.photos/300/200" />
+            <img src="https://picsum.photos/300/200" alt="imagem" />
           </div>
           <div>
             <h3>Lais e Gabriel</h3>
@@ -20,7 +20,7 @@ export default function Bestmans() {
         </li>
         <li>
           <div>
-            <img src="https://picsum.photos/300/200"></img>
+            <img src="https://picsum.photos/300/200" alt="imagem" />
           </div>
           <div>
             <h3>Ana Carolina e Daniel</h3>
@@ -28,7 +28,7 @@ export default function Bestmans() {
         </li>
         <li>
           <div>
-            <img src="https://picsum.photos/300/200"></img>
+            <img src="https://picsum.photos/300/200" alt="imagem" />
           </div>
           <div>
             <h3>Luiz e Fábio</h3>
@@ -36,7 +36,7 @@ export default function Bestmans() {
         </li>
         <li>
           <div>
-            <img src="https://picsum.photos/300/200"></img>
+            <img src="https://picsum.photos/300/200" alt="imagem" />
           </div>
           <div>
             <h3>Nara Percília e Kaleo</h3>
@@ -44,7 +44,7 @@ export default function Bestmans() {
         </li>
         <li>
           <div>
-            <img src="https://picsum.photos/300/200"></img>
+            <img src="https://picsum.photos/300/200" alt="imagem" />
           </div>
           <div>
             <h3>Carlos e Sara</h3>
@@ -53,7 +53,7 @@ export default function Bestmans() {
         <h2>Padrinhos do Noivo</h2>
         <li>
           <div>
-            <img src="https://picsum.photos/300/200"></img>
+            <img src="https://picsum.photos/300/200" alt="imagem" />
           </div>
           <div>
             <h3>Débora e Felipe</h3>
@@ -61,7 +61,7 @@ export default function Bestmans() {
         </li>
         <li>
           <div>
-            <img src="https://picsum.photos/300/200"></img>
+            <img src="https://picsum.photos/300/200" alt="imagem" />
           </div>
           <div>
             <h3>André e Larissa</h3>
@@ -69,7 +69,7 @@ export default function Bestmans() {
         </li>
         <li>
           <div>
-            <img src="https://picsum.photos/300/200"></img>
+            <img src="https://picsum.photos/300/200" alt="imagem" />
           </div>
           <div>
             <h3>Rauny e Marcella</h3>
@@ -77,7 +77,7 @@ export default function Bestmans() {
         </li>
         <li>
           <div>
-            <img src="https://picsum.photos/300/200"></img>
+            <img src="https://picsum.photos/300/200" alt="imagem" />
           </div>
           <div>
             <h3>Maira do Socorro e Reginaldo</h3>
@@ -85,7 +85,7 @@ export default function Bestmans() {
         </li>
         <li>
           <div>
-            <img src="https://picsum.photos/300/200"></img>
+            <img src="https://picsum.photos/300/200" alt="imagem" />
           </div>
           <div>
             <h3>Áurea e Fernando</h3>
@@ -96,7 +96,7 @@ export default function Bestmans() {
         <h2>Damas de honra</h2>
         <li>
           <div>
-            <img src="https://picsum.photos/300/200"></img>
+            <img src="https://picsum.photos/300/200" alt="imagem" />
           </div>
           <div>
             <h3>Alena</h3>
@@ -104,7 +104,7 @@ export default function Bestmans() {
         </li>
         <li>
           <div>
-            <img src="https://picsum.photos/300/200"></img>
+            <img src="https://picsum.photos/300/200" alt="imagem" />
           </div>
           <div>
             <h3>Maria Júlia</h3>
