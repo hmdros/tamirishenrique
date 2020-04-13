@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { MdAddShoppingCart } from 'react-icons/md';
 
 import { Container, Header, Body, GiftGrid } from './styles';
 
