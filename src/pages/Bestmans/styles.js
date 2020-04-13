@@ -2,6 +2,12 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   height: 100vh;
+
+  h2 {
+    font-family: 'Parisienne';
+    color: #004760;
+    font-size: 3rem;
+  }
 `;
 export const Header = styled.div`
   margin-top: 100px;
@@ -15,8 +21,21 @@ export const BestmanList = styled.ul`
   li {
     display: flex;
     list-style-type: none;
-    width: 800px;
+    max-width: 1200px;
     margin: 40px auto;
+    justify-content: center;
+
+    div {
+      display: flex;
+      align-items: center;
+    }
+
+    h3 {
+      font-family: 'Parisienne';
+      color: #004760;
+      font-size: 2rem;
+      margin: 0 20px;
+    }
   }
 `;
 
@@ -24,7 +43,19 @@ export const BrideMade = styled.ul`
   li {
     display: flex;
     list-style-type: none;
-    width: 800px;
+    width: 1200px;
     margin: 40px auto;
+    justify-content: center;
+
+    div {
+      display: flex;
+      align-items: center;
+    }
+
+    h3 {
+      font-family: 'Parisienne';
+      color: #004760;
+      font-size: 2rem;
+    }
   }
 `;

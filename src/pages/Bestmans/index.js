@@ -9,23 +9,107 @@ export default function Bestmans() {
         <h1>Padrinhos e Madrinhas</h1>
       </Header>
       <BestmanList>
-        <h3>Padrinhos da Noiva</h3>
-        <li>Lais e Gabriel</li>
-        <li>Carol e Daniel</li>
-        <li>Luíz e Fábio</li>
-        <li>Nara Pecília e Kaleo</li>
-        <li>Casal E</li>
-        <h3>Padrinhos do Noivo</h3>
-        <li>Débora e Felipe</li>
-        <li>André e Larissa</li>
-        <li>Rauny e Marcella</li>
-        <li>Maira do Socorro e Reginaldo</li>
-        <li>Áurea e Fernando</li>
+        <h2>Padrinhos da Noiva</h2>
+        <li>
+          <div>
+            <img src="https://picsum.photos/300/200" />
+          </div>
+          <div>
+            <h3>Lais e Gabriel</h3>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="https://picsum.photos/300/200"></img>
+          </div>
+          <div>
+            <h3>Ana Carolina e Daniel</h3>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="https://picsum.photos/300/200"></img>
+          </div>
+          <div>
+            <h3>Luiz e Fábio</h3>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="https://picsum.photos/300/200"></img>
+          </div>
+          <div>
+            <h3>Nara Percília e Kaleo</h3>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="https://picsum.photos/300/200"></img>
+          </div>
+          <div>
+            <h3>Carlos e Sara</h3>
+          </div>
+        </li>
+        <h2>Padrinhos do Noivo</h2>
+        <li>
+          <div>
+            <img src="https://picsum.photos/300/200"></img>
+          </div>
+          <div>
+            <h3>Débora e Felipe</h3>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="https://picsum.photos/300/200"></img>
+          </div>
+          <div>
+            <h3>André e Larissa</h3>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="https://picsum.photos/300/200"></img>
+          </div>
+          <div>
+            <h3>Rauny e Marcella</h3>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="https://picsum.photos/300/200"></img>
+          </div>
+          <div>
+            <h3>Maira do Socorro e Reginaldo</h3>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="https://picsum.photos/300/200"></img>
+          </div>
+          <div>
+            <h3>Áurea e Fernando</h3>
+          </div>
+        </li>
       </BestmanList>
       <BrideMade>
-        <h3>Damas de honra</h3>
-        <li>Alena</li>
-        <li>Maria Júlia</li>
+        <h2>Damas de honra</h2>
+        <li>
+          <div>
+            <img src="https://picsum.photos/300/200"></img>
+          </div>
+          <div>
+            <h3>Alena</h3>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="https://picsum.photos/300/200"></img>
+          </div>
+          <div>
+            <h3>Maria Júlia</h3>
+          </div>
+        </li>
       </BrideMade>
     </Container>
   );
