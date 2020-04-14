@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import hero from '../../assets/images/th/engage_jpa1.jpg';
 
 export const Container = styled.div`
   height: 100vh;
@@ -11,7 +10,7 @@ export const Container = styled.div`
   z-index: -5;
   justify-content: center;
   align-items: flex-end;
-  background-image: url(${hero});
+  background-image: url('https://res.cloudinary.com/djz3dt7lc/image/upload/v1583003229/Site%20Casamento/th/engage_jpa1.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

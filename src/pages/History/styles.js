@@ -1,12 +1,7 @@
 import styled from 'styled-components';
-import firstdateimage from '../../assets/images/th/first_date.jpg';
-import namoroimage from '../../assets/images/th/first_trip.jpg';
-import engageimage from '../../assets/images/th/engage_paris.jpg';
-import engagedimage from '../../assets/images/th/engage_jpa3.jpg';
 
 export const Container = styled.div`
   height: 100vh;
-  }
 `;
 
 export const Header = styled.div`
@@ -92,7 +87,7 @@ export const FirstDate = styled.div`
   box-shadow: 1px solid #ddd;
   margin: 0 10px;
   padding: 20px;
-  background-image: url(${firstdateimage});
+  background-image: url('https://res.cloudinary.com/djz3dt7lc/image/upload/v1583003234/Site%20Casamento/th/first_date.jpg');
   height: 260px;
   width: 350px;
   background-position: center;
@@ -110,7 +105,7 @@ export const Namoro = styled.div`
   box-shadow: 1px solid #ddd;
   margin: 0 10px;
   padding: 20px;
-  background-image: url(${namoroimage});
+  background-image: url('https://res.cloudinary.com/djz3dt7lc/image/upload/v1583003168/Site%20Casamento/th/first_trip.jpg');
   height: 260px;
   width: 350px;
   background-position: center;
@@ -128,7 +123,7 @@ export const Engage = styled.div`
   box-shadow: 1px solid #ddd;
   margin: 0 10px;
   padding: 20px;
-  background-image: url(${engageimage});
+  background-image: url('https://res.cloudinary.com/djz3dt7lc/image/upload/v1583003260/Site%20Casamento/th/engage_paris.jpg');
   height: 260px;
   width: 350px;
   background-position: center;
@@ -146,7 +141,7 @@ export const Engaged = styled.div`
   box-shadow: 1px solid #ddd;
   margin: 0 10px;
   padding: 20px;
-  background-image: url(${engagedimage});
+  background-image: url('https://res.cloudinary.com/djz3dt7lc/image/upload/v1583003229/Site%20Casamento/th/engage_jpa1.jpg');
   height: 260px;
   width: 350px;
   background-position: center;

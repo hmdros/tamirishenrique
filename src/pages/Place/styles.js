@@ -1,8 +1,5 @@
 import styled from 'styled-components';
 
-import igrejaimage from '../../assets/images/placeanddate/igreja.jpeg';
-import perolaimage from '../../assets/images/placeanddate/perola.jpg';
-
 export const Container = styled.div`
   height: 100vh;
 `;
@@ -45,7 +42,7 @@ export const Info = styled.div`
 `;
 
 export const Perola = styled.div`
-  background-image: url(${perolaimage});
+  background-image: url('https://res.cloudinary.com/djz3dt7lc/image/upload/v1583003160/Site%20Casamento/placeanddate/perola.jpg');
   height: 300px;
   margin: 30px 0;
   width: 100%;
@@ -58,7 +55,7 @@ export const Perola = styled.div`
 `;
 
 export const Igreja = styled.div`
-  background-image: url(${igrejaimage});
+  background-image: url('https://res.cloudinary.com/djz3dt7lc/image/upload/v1583003160/Site%20Casamento/placeanddate/igreja.jpg');
   height: 300px;
   margin: 30px 0;
   width: 100%;
