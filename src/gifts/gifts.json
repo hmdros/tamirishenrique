@@ -1,24 +1,143 @@
 {
   "gifts": [
     {
-      "title": "Cota de dólar",
+      "title": "Cota de passagem aérea",
       "description": "Conta de presente",
-      "price": "R$ 150,00",
-      "image": "https://res.cloudinary.com/djz3dt7lc/image/upload/v1583003181/Site%20Casamento/places/cash.jpg",
+      "price": "R$ 500,00",
+      "image": "https://res.cloudinary.com/djz3dt7lc/image/upload/v1586825625/Site%20Casamento/gifts/silhouette-of-airplanes-47044.jpg",
+      "external_url": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=238734949-1bd8ab0f-4757-4217-be35-9c86284b2d6a"
+    },
+    {
+      "title": "Cota de lua-de-mel",
+      "description": "Conta de presente",
+      "price": "R$ 700,00",
+      "image": "https://res.cloudinary.com/djz3dt7lc/image/upload/v1586825721/Site%20Casamento/gifts/affection-afterglow-backlit-blur-556667.jpg",
       "external_url": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=238734949-49442b67-bbf2-4df0-845f-75dc23dc7194"
     },
     {
-      "title": "Cota de dólar",
+      "title": "Cota de geladeira",
       "description": "Conta de presente",
-      "price": "R$ 150,00",
-      "image": "https://res.cloudinary.com/djz3dt7lc/image/upload/v1583003181/Site%20Casamento/places/cash.jpg",
+      "price": "R$ 500,00",
+      "image": "https://res.cloudinary.com/djz3dt7lc/image/upload/v1586825884/Site%20Casamento/gifts/99ed583d58d8ae8225befbac4842f1a0.jpg",
+      "external_url": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=238734949-567a55c4-9889-4cbd-967a-3bd2ddd5ae0c"
+    },
+    {
+      "title": "Cota de conjunto de fogão",
+      "description": "Conta de presente",
+      "price": "R$ 200,00",
+      "image": "https://res.cloudinary.com/djz3dt7lc/image/upload/v1586825973/Site%20Casamento/gifts/1a08038c0d7750a87b71265b65a090cf.jpg",
+      "external_url": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=238734949-71a77fe8-514a-40f6-bea5-2aceb2775c8d"
+    },
+    {
+      "title": "Cota de lava-louças",
+      "description": "Conta de presente",
+      "price": "R$ 100,00",
+      "image": "https://res.cloudinary.com/djz3dt7lc/image/upload/v1586826003/Site%20Casamento/gifts/5916da75f7aba7ee8fd8878cc5730324.jpg",
       "external_url": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=238734949-49442b67-bbf2-4df0-845f-75dc23dc7194"
     },
     {
-      "title": "Cota de dólar",
+      "title": "Cota de maquina de lavar",
+      "description": "Conta de presente",
+      "price": "R$ 280,00",
+      "image": "https://res.cloudinary.com/djz3dt7lc/image/upload/v1586826057/Site%20Casamento/gifts/628e431aac291aa32c1030c1923c6c4b.jpg",
+      "external_url": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=238734949-49442b67-bbf2-4df0-845f-75dc23dc7194"
+    },
+    {
+      "title": "Cota de microondas",
+      "description": "Conta de presente",
+      "price": "R$ 120,00",
+      "image": "https://res.cloudinary.com/djz3dt7lc/image/upload/v1586826101/Site%20Casamento/gifts/24b53ca673efa1705888d70359488dae.jpg",
+      "external_url": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=238734949-49442b67-bbf2-4df0-845f-75dc23dc7194"
+    },
+    {
+      "title": "Jogo de panelas",
+      "description": "Conta de presente",
+      "price": "R$ 250,00",
+      "image": "https://res.cloudinary.com/djz3dt7lc/image/upload/v1586826326/Site%20Casamento/gifts/Captura_de_tela_de_2020-04-13_22-04-28.png",
+      "external_url": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=238734949-49442b67-bbf2-4df0-845f-75dc23dc7194"
+    },
+    {
+      "title": "Aparelho de Jantar",
+      "description": "Conta de presente",
+      "price": "R$ 300,00",
+      "image": "https://res.cloudinary.com/djz3dt7lc/image/upload/v1586826191/Site%20Casamento/gifts/Captura_de_tela_de_2020-04-13_22-03-03.png",
+      "external_url": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=238734949-49442b67-bbf2-4df0-845f-75dc23dc7194"
+    },
+    {
+      "title": "Faqueiro",
+      "description": "Conta de presente",
+      "price": "R$ 180,00",
+      "image": "https://res.cloudinary.com/djz3dt7lc/image/upload/v1586826226/Site%20Casamento/gifts/Captura_de_tela_de_2020-04-13_22-03-39.png",
+      "external_url": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=238734949-49442b67-bbf2-4df0-845f-75dc23dc7194"
+    },
+    {
+      "title": "Jogo de Fondue",
       "description": "Conta de presente",
       "price": "R$ 150,00",
-      "image": "https://res.cloudinary.com/djz3dt7lc/image/upload/v1583003181/Site%20Casamento/places/cash.jpg",
+      "image": "https://res.cloudinary.com/djz3dt7lc/image/upload/v1586826368/Site%20Casamento/gifts/Captura_de_tela_de_2020-04-13_22-05-58.png",
+      "external_url": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=238734949-49442b67-bbf2-4df0-845f-75dc23dc7194"
+    },
+    {
+      "title": "Adega Climatizada",
+      "description": "Conta de presente",
+      "price": "R$ 200,00",
+      "image": "https://res.cloudinary.com/djz3dt7lc/image/upload/v1586826327/Site%20Casamento/gifts/Captura_de_tela_de_2020-04-13_22-04-55.png",
+      "external_url": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=238734949-49442b67-bbf2-4df0-845f-75dc23dc7194"
+    },
+    {
+      "title": "AirFryer",
+      "description": "Conta de presente",
+      "price": "R$ 250,00",
+      "image": "https://res.cloudinary.com/djz3dt7lc/image/upload/v1586826431/Site%20Casamento/gifts/5d5c0c0a0ca2a9c32fc1334b5a8be4ab.jpg",
+      "external_url": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=238734949-49442b67-bbf2-4df0-845f-75dc23dc7194"
+    },
+    {
+      "title": "Cota de cama king size",
+      "description": "Conta de presente",
+      "price": "R$ 450,00",
+      "image": "https://res.cloudinary.com/djz3dt7lc/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1586826868/Site%20Casamento/gifts/12004239441950.jpg",
+      "external_url": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=238734949-49442b67-bbf2-4df0-845f-75dc23dc7194"
+    },
+    {
+      "title": "Jogo de lençois",
+      "description": "Conta de presente",
+      "price": "R$ 200,00",
+      "image": "https://res.cloudinary.com/djz3dt7lc/image/upload/v1586826736/Site%20Casamento/gifts/Captura_de_tela_de_2020-04-13_22-12-07.png",
+      "external_url": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=238734949-49442b67-bbf2-4df0-845f-75dc23dc7194"
+    },
+    {
+      "title": "Conjunto de toalhas",
+      "description": "Conta de presente",
+      "price": "R$ 150,00",
+      "image": "https://res.cloudinary.com/djz3dt7lc/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1586826774/Site%20Casamento/gifts/lbno1tj5bb0001png1536673889183-1566479357441.jpg",
+      "external_url": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=238734949-49442b67-bbf2-4df0-845f-75dc23dc7194"
+    },
+    {
+      "title": "Cota de ar-condicionado",
+      "description": "Conta de presente",
+      "price": "R$ 350,00",
+      "image": "https://res.cloudinary.com/djz3dt7lc/image/upload/v1586826544/Site%20Casamento/gifts/c90d30af3b024e30f9f93f26f2ce48ff.jpg",
+      "external_url": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=238734949-49442b67-bbf2-4df0-845f-75dc23dc7194"
+    },
+    {
+      "title": "Cota de TV 4k",
+      "description": "Conta de presente",
+      "price": "R$ 420,00",
+      "image": "https://res.cloudinary.com/djz3dt7lc/image/upload/v1586826466/Site%20Casamento/gifts/9d51812b46b172920b1b71197bb99670.jpg",
+      "external_url": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=238734949-49442b67-bbf2-4df0-845f-75dc23dc7194"
+    },
+    {
+      "title": "Cota de conjunto de sofá",
+      "description": "Conta de presente",
+      "price": "R$ 250,00",
+      "image": "https://res.cloudinary.com/djz3dt7lc/image/upload/v1586826829/Site%20Casamento/gifts/ecomece-sf4-florida-taupe-imbuia-s3_1.png",
+      "external_url": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=238734949-49442b67-bbf2-4df0-845f-75dc23dc7194"
+    },
+    {
+      "title": "Cota de mesa de jantar",
+      "description": "Conta de presente",
+      "price": "R$ 300,00",
+      "image": "https://res.cloudinary.com/djz3dt7lc/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1586826623/Site%20Casamento/gifts/mj-70-ecomece2_10_3.png",
       "external_url": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=238734949-49442b67-bbf2-4df0-845f-75dc23dc7194"
     }
   ]

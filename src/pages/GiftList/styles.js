@@ -18,6 +18,7 @@ export const Body = styled.div`
     color: red;
     padding: 10px;
     margin: 10px;
+    text-align: center;
   }
 `;
 
@@ -43,27 +44,29 @@ export const GiftGrid = styled.ul`
       align-self: center;
       max-width: 250px;
       border-radius: 4px;
-      border: 2px solid #666;
+      border: 1px solid #;
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
     }
 
     > strong {
-      font-size: 16px;
+      font-size: 20px;
       line-height: 20px;
       color: #333;
-      margin-top: 5px;
+      margin-top: 15px;
+      text-align: center;
     }
 
     > span {
+      text-align: center;
       font-size: 21px;
       font-weight: bold;
-      margin: 5px 0 20px;
+      margin: 10px 20px 20px;
     }
 
     button {
-      background: #9cb5df;
+      background: #004760;
       border: 0;
       border-radius: 4px;
       overflow: hidden;

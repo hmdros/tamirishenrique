@@ -29,7 +29,7 @@ export default class GiftList extends Component {
           <h1>Lista de Presentes</h1>
         </Header>
         <Body>
-          <p>Todos os links levam a uma pagina do PagSeguro.</p>
+          <p>Todos os links levam a uma página do MercadoPago.</p>
           <GiftGrid>
             {gifts.map(gift => (
               <li key={gift.title}>
