@@ -43,7 +43,7 @@ export const BrideMade = styled.ul`
   li {
     display: flex;
     list-style-type: none;
-    width: 1200px;
+    max-width: 600px;
     margin: 40px auto;
     justify-content: center;
 
@@ -56,6 +56,17 @@ export const BrideMade = styled.ul`
       font-family: 'Parisienne';
       color: #004760;
       font-size: 2rem;
+      margin-left: 15px;
     }
+  }
+
+  img {
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 `;

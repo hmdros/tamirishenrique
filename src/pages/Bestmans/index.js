@@ -10,7 +10,7 @@ export default function Bestmans() {
       </Header>
       <BestmanList>
         <h2>Padrinhos da Noiva</h2>
-        <li>
+        {/* <li>
           <div>
             <img src="https://picsum.photos/300/200" alt="imagem" />
           </div>
@@ -49,9 +49,9 @@ export default function Bestmans() {
           <div>
             <h3>Carlos e Sara</h3>
           </div>
-        </li>
+        </li> */}
         <h2>Padrinhos do Noivo</h2>
-        <li>
+        {/* <li>
           <div>
             <img src="https://picsum.photos/300/200" alt="imagem" />
           </div>
@@ -90,13 +90,16 @@ export default function Bestmans() {
           <div>
             <h3>Áurea e Fernando</h3>
           </div>
-        </li>
+        </li> */}
       </BestmanList>
       <BrideMade>
         <h2>Damas de honra</h2>
         <li>
           <div>
-            <img src="https://picsum.photos/300/200" alt="imagem" />
+            <img
+              src="https://res.cloudinary.com/djz3dt7lc/image/upload/v1586830374/Site%20Casamento/padrinhos/Captura_de_tela_de_2020-04-13_23-12-15.png"
+              alt="imagem"
+            />
           </div>
           <div>
             <h3>Alena</h3>
@@ -104,7 +107,10 @@ export default function Bestmans() {
         </li>
         <li>
           <div>
-            <img src="https://picsum.photos/300/200" alt="imagem" />
+            <img
+              src="https://res.cloudinary.com/djz3dt7lc/image/upload/v1586830219/Site%20Casamento/padrinhos/Captura_de_tela_de_2020-04-13_23-07-33.png"
+              alt="imagem"
+            />
           </div>
           <div>
             <h3>Maria Júlia</h3>
