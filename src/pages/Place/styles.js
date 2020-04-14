@@ -23,31 +23,49 @@ export const Info = styled.div`
   align-items: center;
   text-align: justify;
 
+  p {
+    line-height: 25px;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+
   h2 {
-    margin: 20px 0;
+    font-size: 2.5rem;
+    margin: 90px 0 0 20px;
+    color: #004760;
+    font-family: 'Parisienne';
+  }
+
+  iframe {
+    border-radius: 15px;
+    @media only screen and (max-width: 576px) {
+      width: 100%;
+    }
   }
 `;
 
 export const Perola = styled.div`
   background-image: url(${perolaimage});
-  height: 200px;
-  margin: 20px 0;
-  width: 400px;
+  height: 300px;
+  margin: 30px 0;
+  width: 100%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
   box-shadow: 1px solid #ddd;
+  border: 2px solid #ccc;
 `;
 
 export const Igreja = styled.div`
   background-image: url(${igrejaimage});
-  height: 200px;
-  margin: 20px 0;
-  width: 400px;
+  height: 300px;
+  margin: 30px 0;
+  width: 100%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
   box-shadow: 1px solid #ddd;
+  border: 2px solid #ccc;
 `;
