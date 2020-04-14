@@ -36,7 +36,7 @@ export const TimeLine = styled.ul`
 
       h2 {
         font-family: 'Parisienne';
-        padding: 8px;
+        padding: 10px;
         font-size: 2.5rem;
         color: #004760;
       }
@@ -49,7 +49,7 @@ export const TimeLine = styled.ul`
   }
 
   @media only screen and (max-width: 576px) {
-    width: 330px;
+    width: 100%;
     margin-top: auto;
 
     li {

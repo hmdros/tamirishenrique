@@ -17,7 +17,6 @@ export default function History() {
       </Header>
       <TimeLine>
         <li>
-          <FirstDate />
           <div>
             <span>10 de setembro de 2015</span>
             <h2>Primeiro Encontro</h2>
@@ -28,6 +27,7 @@ export default function History() {
               aconteceu o primeiro beijo.
             </p>
           </div>
+          <FirstDate />
         </li>
         <li>
           <div>
@@ -43,7 +43,6 @@ export default function History() {
           <Namoro />
         </li>
         <li>
-          <Engage />
           <div>
             <span>30 de março de 2019</span>
             <h2>Noivado</h2>
@@ -53,6 +52,7 @@ export default function History() {
               pontos turísticos da cidade, com direito à vinhos e boa música.
             </p>
           </div>
+          <Engage />
         </li>
         <li>
           <div>
