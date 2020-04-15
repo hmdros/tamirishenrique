@@ -12,3 +12,17 @@ export const Header = styled.div`
   font-size: 2rem;
   text-align: center;
 `;
+
+export const GalleryGrid = styled.div`
+  text-align: center;
+
+  img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+`;

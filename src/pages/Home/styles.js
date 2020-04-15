@@ -17,7 +17,7 @@ export const Container = styled.div`
 
   h1 {
     font-family: 'Parisienne';
-    font-size: 90px;
+    font-size: 120px;
     font-weight: bold;
     color: #004760;
     margin-bottom: 20px;
