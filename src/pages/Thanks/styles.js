@@ -1,7 +1,14 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  height: 100vh;
+  height: 80vh;
+  justify-content: center;
+  text-align: center;
+
+  img {
+    max-height: 800px;
+    width: 75%;
+  }
 `;
 
 export const Header = styled.div`
