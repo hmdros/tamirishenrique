@@ -73,6 +73,7 @@ export const TimeLine = styled.ul`
     p {
       font-size: 1rem;
       line-height: 25px;
+      margin-bottom: 15px;
     }
 
     div {
