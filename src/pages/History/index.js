@@ -16,7 +16,7 @@ export default function History() {
         <h1>Nossa História</h1>
       </Header>
       <TimeLine>
-        <li>
+        <li data-aos="fade-in">
           <div>
             <span>10 de setembro de 2015</span>
             <h2>Primeiro Encontro</h2>
@@ -29,7 +29,7 @@ export default function History() {
           </div>
           <FirstDate />
         </li>
-        <li>
+        <li data-aos="fade-in">
           <div>
             <span>19 de setembro de 2015</span>
             <h2>Início de Namoro</h2>
@@ -42,7 +42,7 @@ export default function History() {
           </div>
           <Namoro />
         </li>
-        <li>
+        <li data-aos="fade-in">
           <div>
             <span>30 de março de 2019</span>
             <h2>Noivado</h2>
@@ -54,7 +54,7 @@ export default function History() {
           </div>
           <Engage />
         </li>
-        <li>
+        <li data-aos="fade-in">
           <div>
             <span>19 de setembro de 2020</span>
             <h2>Casamento</h2>

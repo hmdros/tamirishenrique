@@ -43,13 +43,14 @@ export const BrideMade = styled.ul`
   li {
     display: flex;
     list-style-type: none;
-    max-width: 600px;
+    max-width: 550px;
     margin: 40px auto;
     justify-content: center;
 
     div {
       display: flex;
       align-items: center;
+      flex-direction: column;
     }
 
     h3 {
@@ -61,12 +62,28 @@ export const BrideMade = styled.ul`
   }
 
   img {
-    width: 200px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     object-fit: contain;
+    padding: 10px;
+    border: 1px solid #eee;
     border-radius: 10px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+
+  @media (max-width: 576px) {
+    li {
+      flex-wrap: wrap;
+    }
+
+    img {
+      width: 350px;
+      height: 350px;
+      object-fit: contain;
+      padding: 10px;
+      border: 1px solid #eee;
+      border-radius: 10px;
+      overflow: hidden;
+    }
   }
 `;

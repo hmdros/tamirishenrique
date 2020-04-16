@@ -48,6 +48,20 @@ export const GiftGrid = styled.ul`
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
+      cursor: pointer;
+
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+      -webkit-font-smoothing: antialiased;
+      display: inline-block;
+      vertical-align: middle;
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      transition-duration: 0.3s;
+      transition-property: box-shadow;
+    }
+
+    img:hover {
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
     }
 
     > strong {

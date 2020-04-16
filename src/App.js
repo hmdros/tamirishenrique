@@ -1,5 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter } from 'react-router-dom';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import GlobalStyles from './styles/global';
 
@@ -10,6 +13,12 @@ import Routes from './routes';
 
 function App() {
   const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+    });
+  }, []);
 
   return (
     <BrowserRouter>

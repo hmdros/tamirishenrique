@@ -10,7 +10,7 @@ export const Container = styled.div`
   z-index: -5;
   justify-content: center;
   align-items: flex-end;
-  background-image: url('https://res.cloudinary.com/djz3dt7lc/image/upload/v1583003229/Site%20Casamento/th/engage_jpa1.jpg');
+  background-image: url('https://res.cloudinary.com/djz3dt7lc/image/upload/c_fit,w_1400/v1583003229/Site%20Casamento/th/engage_jpa1.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
