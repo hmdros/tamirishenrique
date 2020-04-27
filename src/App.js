@@ -12,7 +12,7 @@ import Menu from './components/Menu';
 import Routes from './routes';
 
 function App() {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(window.screen.availWidth >= 576);
 
   useEffect(() => {
     AOS.init({
