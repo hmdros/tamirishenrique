@@ -103,7 +103,7 @@ export default function Bestmans() {
         </li> */}
       </BestmanList>
       <BrideMade>
-        <h2>Damas de honra</h2>
+        <h2>Damas de honra e Pajens</h2>
         <li>
           <div>
             <img
