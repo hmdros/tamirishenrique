@@ -120,6 +120,15 @@ export default function Bestmans() {
             <h3>Maria Júlia</h3>
           </div>
         </li>
+        <li>
+          <div>
+            <img
+              src="https://res.cloudinary.com/djz3dt7lc/image/upload/v1588419488/Site%20Casamento/padrinhos/WhatsApp_Image_2020-04-28_at_11.28.29.jpg"
+              alt="imagem"
+            />
+            <h3>Bernardo e Tomás</h3>
+          </div>
+        </li>
       </BrideMade>
     </Container>
   );
