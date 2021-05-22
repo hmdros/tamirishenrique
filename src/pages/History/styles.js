@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
-const firstTrip = require('../../assets/images/th/first_trip.jpg')
-const namoro = require('../../assets/images/th/first_date.jpg')
-const noivado = require('../../assets/images/th/engage_paris.jpg')
-const noivado2 = require('../../assets/images/th/engage_jpa1.jpg')
-const shadow = require('../../assets/images/th/sombras.jpg')
+const firstTrip = 'https://res.cloudinary.com/djz3dt7lc/image/upload/v1583003168/Site%20Casamento/th/first_trip.jpg';
+const namoro = 'https://res.cloudinary.com/djz3dt7lc/image/upload/v1583003234/Site%20Casamento/th/first_date.jpg';
+const noivado = 'https://res.cloudinary.com/djz3dt7lc/image/upload/v1583003260/Site%20Casamento/th/engage_paris.jpg';
+const noivado2 = 'https://res.cloudinary.com/djz3dt7lc/image/upload/v1583003229/Site%20Casamento/th/engage_jpa1.jpg';
+const shadow = 'https://res.cloudinary.com/djz3dt7lc/image/upload/v1621719914/Site%20Casamento/th/sombras.jpg';
 
 
 export const Container = styled.div`

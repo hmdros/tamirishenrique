@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-const igrejaImage = require('../../assets/images/placeanddate/igreja.jpg')
-const perolaImage = require('../../assets/images/placeanddate/perola.jpg')
+const igrejaImage = 'https://res.cloudinary.com/djz3dt7lc/image/upload/v1583003160/Site%20Casamento/placeanddate/igreja.jpg';
+const perolaImage = 'https://res.cloudinary.com/djz3dt7lc/image/upload/v1583003160/Site%20Casamento/placeanddate/perola.jpg';
 
 export const Container = styled.div`
   height: 100vh;
