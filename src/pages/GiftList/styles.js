@@ -16,8 +16,6 @@ export const Header = styled.div`
 export const Body = styled.div`
   p {
     color: red;
-    padding: 10px;
-    margin: 10px;
     text-align: center;
   }
 `;
@@ -27,6 +25,7 @@ export const GiftGrid = styled.ul`
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
   list-style: none;
+  margin-top: 20px;
 
   @media (max-width: 567px) {
     grid-template-columns: repeat(1, 1fr);

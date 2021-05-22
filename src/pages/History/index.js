@@ -7,6 +7,7 @@ import {
   Engage,
   Engaged,
   Header,
+  Shadow
 } from './styles';
 
 export default function History() {
@@ -57,16 +58,25 @@ export default function History() {
         <li data-aos="fade-in">
           <div>
             <span>19 de setembro de 2020</span>
-            <h2>Casamento</h2>
+            <h2>A Pandemia</h2>
             <p>
-              Escolhemos esta data pois nela iremos comemorar nosso 5º
-              aniversário de namoro. Durante esse tempo vivemos muitas alegrias,
-              provações, distância... mas permanecemos com nosso amor firme e
-              forte, e chegou nosso momento de pedir a benção de Deus ao nosso
-              matrimônio.
+              Muitos sonhos precisaram ser adiados no ano de 2020. Para nós, foi a nossa união. Foi uma decisão muito difícil na época, mas o que importa, olhando para trás, é saber que todos estamos bem e com saúde. 
+            </p>
+            <p>
+              E nós continuamos vivendo esse amor há cinco anos, e contando... 
             </p>
           </div>
           <Engaged />
+        </li>
+        <li data-aos="fade-in">
+          <div>
+            <span>11 de setembro de 2021</span>
+            <h2>Casamento</h2>
+            <p>
+              Finalmente o grande dia vai chegar, e poderemos realizar o nosso sonho de nos casarmos, após quase seis anos de relacionamento. Aguardamos todos vocês para celebrar conosco esse dia tão especial para nós!
+            </p>
+          </div>
+          <Shadow />
         </li>
       </TimeLine>
     </Container>

@@ -22,7 +22,7 @@ export const BestmanList = styled.ul`
     display: flex;
     list-style-type: none;
     max-width: 1200px;
-    margin: 40px auto;
+    margin: 30px auto;
     justify-content: center;
 
     div {
@@ -36,6 +36,7 @@ export const BestmanList = styled.ul`
       font-size: 2rem;
       margin: 0 20px;
     }
+
   }
 `;
 

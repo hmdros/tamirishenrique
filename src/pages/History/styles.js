@@ -1,5 +1,12 @@
 import styled from 'styled-components';
 
+const firstTrip = require('../../assets/images/th/first_trip.jpg')
+const namoro = require('../../assets/images/th/first_date.jpg')
+const noivado = require('../../assets/images/th/engage_paris.jpg')
+const noivado2 = require('../../assets/images/th/engage_jpa1.jpg')
+const shadow = require('../../assets/images/th/sombras.jpg')
+
+
 export const Container = styled.div`
   height: 100vh;
 `;
@@ -88,7 +95,7 @@ export const FirstDate = styled.div`
   box-shadow: 1px solid #ddd;
   margin: 0 10px;
   padding: 20px;
-  background-image: url('https://res.cloudinary.com/djz3dt7lc/image/upload/v1583003234/Site%20Casamento/th/first_date.jpg');
+  background-image: url(${firstTrip});
   height: 260px;
   width: 350px;
   background-position: center;
@@ -106,7 +113,7 @@ export const Namoro = styled.div`
   box-shadow: 1px solid #ddd;
   margin: 0 10px;
   padding: 20px;
-  background-image: url('https://res.cloudinary.com/djz3dt7lc/image/upload/v1583003168/Site%20Casamento/th/first_trip.jpg');
+  background-image: url(${namoro});
   height: 260px;
   width: 350px;
   background-position: center;
@@ -124,7 +131,7 @@ export const Engage = styled.div`
   box-shadow: 1px solid #ddd;
   margin: 0 10px;
   padding: 20px;
-  background-image: url('https://res.cloudinary.com/djz3dt7lc/image/upload/v1583003260/Site%20Casamento/th/engage_paris.jpg');
+  background-image: url(${noivado});
   height: 260px;
   width: 350px;
   background-position: center;
@@ -142,7 +149,25 @@ export const Engaged = styled.div`
   box-shadow: 1px solid #ddd;
   margin: 0 10px;
   padding: 20px;
-  background-image: url('https://res.cloudinary.com/djz3dt7lc/image/upload/v1583003229/Site%20Casamento/th/engage_jpa1.jpg');
+  background-image: url(${shadow});
+  height: 260px;
+  width: 350px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  @media only screen and (max-width: 576px) {
+    padding: 0;
+    margin: 0;
+  }
+`;
+
+export const Shadow = styled.div`
+  border-radius: 10px;
+  border: 2px solid #eee;
+  box-shadow: 1px solid #ddd;
+  margin: 0 10px;
+  padding: 20px;
+  background-image: url(${noivado2});
   height: 260px;
   width: 350px;
   background-position: center;

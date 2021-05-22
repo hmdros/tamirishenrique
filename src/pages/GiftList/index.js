@@ -30,6 +30,7 @@ export default class GiftList extends Component {
         </Header>
         <Body>
           <p>Todos os links levam a uma página do MercadoPago.</p>
+          <p>Esse site é totalmente confiável e o valor do presente será direcionado para nossa conta.</p>
           <GiftGrid>
             {gifts.map(gift => (
               <li key={gift.title}>

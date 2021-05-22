@@ -10,123 +10,78 @@ export default function Bestmans() {
       </Header>
       <BestmanList>
         <h2>Padrinhos da Noiva</h2>
-        . <br/>
-        . <br/>
-        . <br/>
-        . <br/>
-        . <br/>
-        {/* <li>
-          <div>
-            <img src="https://picsum.photos/300/200" alt="imagem" />
-          </div>
+        <li>
           <div>
             <h3>Lais e Gabriel</h3>
           </div>
         </li>
         <li>
           <div>
-            <img src="https://picsum.photos/300/200" alt="imagem" />
-          </div>
-          <div>
-            <h3>Ana Carolina e Daniel</h3>
+            <h3>Carolina e Daniel</h3>
           </div>
         </li>
         <li>
-          <div>
-            <img src="https://picsum.photos/300/200" alt="imagem" />
-          </div>
-          <div>
-            <h3>Luiz e Fábio</h3>
-          </div>
-        </li>
-        <li>
-          <div>
-            <img src="https://picsum.photos/300/200" alt="imagem" />
-          </div>
           <div>
             <h3>Nara Percília e Kaleo</h3>
           </div>
         </li>
         <li>
           <div>
-            <img src="https://picsum.photos/300/200" alt="imagem" />
+            <h3>Luiz e Emanuella</h3>
           </div>
+        </li>
+        <li>
           <div>
-            <h3>Carlos e Sara</h3>
+            <h3>Fábio e Ellen</h3>
           </div>
-        </li> */}
+        </li>
         <h2>Padrinhos do Noivo</h2>
-        . <br/>
-        . <br/>
-        . <br/>
-        . <br/>
-        . <br/>
-        {/* <li>
-          <div>
-            <img src="https://picsum.photos/300/200" alt="imagem" />
-          </div>
+        <li>
           <div>
             <h3>Débora e Felipe</h3>
           </div>
         </li>
         <li>
           <div>
-            <img src="https://picsum.photos/300/200" alt="imagem" />
+            <h3>Socorro e Reginaldo</h3>
           </div>
+        </li>
+        <li>
+          <div>
+            <h3>Áurea e Fernando</h3>
+          </div>
+        </li>
+        <li>
           <div>
             <h3>André e Larissa</h3>
           </div>
         </li>
         <li>
           <div>
-            <img src="https://picsum.photos/300/200" alt="imagem" />
-          </div>
-          <div>
             <h3>Rauny e Marcella</h3>
           </div>
         </li>
-        <li>
-          <div>
-            <img src="https://picsum.photos/300/200" alt="imagem" />
-          </div>
-          <div>
-            <h3>Maira do Socorro e Reginaldo</h3>
-          </div>
-        </li>
-        <li>
-          <div>
-            <img src="https://picsum.photos/300/200" alt="imagem" />
-          </div>
-          <div>
-            <h3>Áurea e Fernando</h3>
-          </div>
-        </li> */}
       </BestmanList>
       <BrideMade>
         <h2>Daminhas e Pajens</h2>
         <li>
           <div>
-            <img
-              src="https://res.cloudinary.com/djz3dt7lc/image/upload/v1586830374/Site%20Casamento/padrinhos/Captura_de_tela_de_2020-04-13_23-12-15.png"
-              alt="imagem"
-            />
             <h3>Alena</h3>
           </div>
+        </li>
+        <li>
           <div>
-            <img
-              src="https://res.cloudinary.com/djz3dt7lc/image/upload/v1586830219/Site%20Casamento/padrinhos/Captura_de_tela_de_2020-04-13_23-07-33.png"
-              alt="imagem"
-            />
             <h3>Maria Júlia</h3>
           </div>
         </li>
         <li>
           <div>
-            <img
-              src="https://res.cloudinary.com/djz3dt7lc/image/upload/v1588419488/Site%20Casamento/padrinhos/WhatsApp_Image_2020-04-28_at_11.28.29.jpg"
-              alt="imagem"
-            />
-            <h3>Bernardo e Tomás</h3>
+            <h3>Bernardo</h3>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h3>Tomás</h3>
           </div>
         </li>
       </BrideMade>
