@@ -20,6 +20,13 @@ export default class GiftList extends Component {
     window.location.href=`${external_url}`
   }
 
+  goToNewTab(url) {
+    window.open(
+      url,
+      '_blank'
+    );
+  }
+
   render() {
     const { gifts } = this.state;
 
@@ -35,22 +42,22 @@ export default class GiftList extends Component {
           <br/>
           
           <ExternalLists>
-            <a href="http://lista.camicado.com.br/tamirishenrique" target="_blank" rel="noreferrer">
+            <div onClick={() => {this.goToNewTab("http://lista.camicado.com.br/tamirishenrique")}}>
               <img
                 height="120"
                 width="180"
                 src="https://res.cloudinary.com/djz3dt7lc/image/upload/v1625843228/Site%20Casamento/gifts/logo-1360168069294.png"
                 alt="lista1"
               />
-            </a>
-            <a href="http://finalfeliz.de/tamirishenrique" target="_blank" rel="noreferrer">
+            </div>
+            <div onClick={() => {this.goToNewTab("http://finalfeliz.de/tamirishenrique")}}>
               <img
                 src="https://res.cloudinary.com/djz3dt7lc/image/upload/v1625843228/Site%20Casamento/gifts/994444912_1280x720.jpg"
                 alt="lista2"
                 width="180"
                 height="120"
               />
-            </a>
+            </div>
           </ExternalLists>
           <br/>
           <br/>

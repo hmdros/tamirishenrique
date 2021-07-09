@@ -25,6 +25,10 @@ export const ExternalLists = styled.div`
   flex-direction: row;
   justify-content: space-around;
   padding: 12px;
+  
+  div {
+    cursor: pointer;
+  }
 `;
 
 export const GiftGrid = styled.ul`
