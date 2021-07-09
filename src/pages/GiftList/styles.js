@@ -20,6 +20,13 @@ export const Body = styled.div`
   }
 `;
 
+export const ExternalLists = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 12px;
+`;
+
 export const GiftGrid = styled.ul`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
