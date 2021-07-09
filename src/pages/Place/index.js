@@ -10,7 +10,7 @@ export default function Place() {
       </Header>
       <Info>
         <p>
-          Nosso casamento ocorrerá no dia 19 de setembro de 2020.
+          Nosso casamento ocorrerá no dia 11 de setembro de 2021.
           Contamos com a presença de todos vocês, nossos convidados, nos locais escolhidos por nós e indicados abaixo.
         </p>
         <h2>Celebração</h2>
